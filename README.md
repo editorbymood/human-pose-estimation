@@ -26,28 +26,30 @@ Ensure you have the following installed:
 - TensorFlow
 - OpenCV
 
-Install dependencies using:
-
-```bash
+```Install dependencies using:
+bash
 pip install -r requirements.txt
 Running the Application
+
 ➤ Pose Estimation on Images
 bash
 Copy
 Edit
 python pose_estimation.py --image path_to_image.jpg
+
 ➤ Pose Estimation on Videos
 bash
 Copy
 Edit
 python pose_estimation_Video.py --video path_to_video.mp4
+
 ➤ Real-Time Pose Estimation via Webcam
 bash
 Copy
 Edit
 python estimation_app.py
-
-#📁 Project Structure
+```
+```📁 Project Structure
 bash
 Copy
 Edit
@@ -63,13 +65,7 @@ Edit
 ├── stand.jpg                  # Sample input image
 └── README.md                  # Project documentation
 
-📸 Sample Outputs
-▶ Image Input
-
-✔ Detected Pose
-
-▶ Video Output
-
+```
 🤝 Contributing
 Contributions are welcome!
 Feel free to open issues or submit pull requests to enhance this project.
@@ -89,10 +85,4 @@ Created by editorbymood – feel free to reach out!
 
 
 
-
-📄 License
-This project is licensed under the MIT License.
-
-📬 Contact
-Created by editorbymood – feel free to reach out!
 
